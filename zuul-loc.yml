@@ -5,9 +5,11 @@ spring:
 server:
     port: 8989
 
-zuul:
-    routes:
-
+#zuul:
+#    routes:
+#        transaction-facade:
+#            path: /transaction/**
+#            serviceId: transaction-facade-srv
 eureka:
   client:
     serviceUrl:

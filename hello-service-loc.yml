@@ -1,2 +1,6 @@
 server:
   port: 8796
+
+hello:
+  to:
+    pablo.valiente
