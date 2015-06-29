@@ -1,6 +1,11 @@
 server:
-  port: 8796
+  port: 0
 
 hello:
   to:
     pablo.valiente
+
+eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
