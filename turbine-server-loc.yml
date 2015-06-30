@@ -5,3 +5,8 @@ server:
 turbine:
   appConfig: hello-service
   clusterNameExpression: 'default'
+
+eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
