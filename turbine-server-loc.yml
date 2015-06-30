@@ -1,0 +1,7 @@
+server:
+  port: 9001
+
+
+turbine:
+  appConfig: hello-service
+  clusterNameExpression: 'default'
