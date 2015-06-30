@@ -4,9 +4,10 @@ server:
 management:
   port: 9191
 
-#turbine:
-#  appConfig: hello-service
-#  clusterNameExpression: 'default'
+turbine:
+  aggregator:
+    clusterConfig: HELLO
+  appConfig: hello-service
 
 eureka:
     instance:
