@@ -1,8 +1,6 @@
 server:
   port: 9090
 
-management:
-  port: 9191
 
 turbine:
   aggregator:
