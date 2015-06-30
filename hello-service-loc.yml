@@ -3,7 +3,7 @@ server:
 
 hello:
   to:
-    pablo.beeva
+    pablo.beeva.nuevo
 
 eureka:
   instance:
